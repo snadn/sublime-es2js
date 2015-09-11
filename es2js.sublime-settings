@@ -1,0 +1,25 @@
+/*
+ * Es2Js default settings
+ *
+ * ******** IMPORTANT ********
+ *
+ * DO NOT modify this file,
+ * Copy the content to user settings
+ * via "Preferences" -> "Package Settings" -> "Es2Js" -> "Settings - User".
+ *
+ */
+
+{
+  "autoCompile": true,
+  "createJsSourceMaps": false,
+  "ignorePrefixedFiles": false,
+  "esBaseDir": "./",
+  "escCommand": false,
+  "main_file": false,
+  "minify": true,
+  "minName": false,
+  "outputDir": "./",
+  "outputFile": "", //[example.js] if left blank uses same name of .es file
+  "showErrorWithWindow": true,
+  "autoprefix": false
+}

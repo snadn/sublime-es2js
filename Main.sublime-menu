@@ -1,0 +1,108 @@
+[
+  {
+    "id": "tools",
+    "children":
+    [
+      {
+        "caption": "Es > Js",
+        "id": "e2j",
+        "children":
+        [
+          { "command": "set_es_base", "caption": "Set es base directory"},
+          { "command": "set_output_dir", "caption": "Set js output directory"},
+          { "command": "reset_es_base_auto", "caption": "Set js output directory to 'auto'"},
+          { "caption": "-" },
+          { "command": "toggle_js_minification", "caption": "Toggle minify output js"},
+          { "caption": "-" },
+          { "command": "es_to_js", "caption": "Compile this es file to js"},
+          { "command": "all_es_to_js", "caption": "Compile all es in es base directory to js" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "Es2Js",
+            "children":
+            [
+              {   "command" : "open_file",
+                  "args": {"file": "${packages}/Es2Js/README.md"},
+                  "caption": "Read me"
+              },
+              { "caption": "-" },
+              {
+                  "command": "open_file",
+                  "args": {"file": "${packages}/Es2Js/es2js.sublime-settings"},
+                  "caption": "Settings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {"file": "${packages}/User/es2js.sublime-settings"},
+                  "caption": "Settings – User"
+              },
+              { "caption": "-" },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/Es2Js/Default (Windows).sublime-keymap",
+                      "platform": "Windows"
+                  },
+                  "caption": "Key Bindings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/Es2Js/Default (OSX).sublime-keymap",
+                      "platform": "OSX"
+                  },
+                  "caption": "Key Bindings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/Es2Js/Default (Linux).sublime-keymap",
+                      "platform": "Linux"
+                  },
+                  "caption": "Key Bindings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/User/Default (Windows).sublime-keymap",
+                      "platform": "Windows"
+                  },
+                  "caption": "Key Bindings – User"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/User/Default (OSX).sublime-keymap",
+                      "platform": "OSX"
+                  },
+                  "caption": "Key Bindings – User"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/User/Default (Linux).sublime-keymap",
+                      "platform": "Linux"
+                  },
+                  "caption": "Key Bindings – User"
+              },
+              { "caption": "-" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
